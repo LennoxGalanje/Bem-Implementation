@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: black;
+    height: 300px;
+    width: 200px;
+    border-radius: 8px;
+    place-items: center;
+    margin: 50px 300px;
+ }
+ .card__image{
+    padding: 13px;
+}
+.card__image--img{
+    border-radius: 50%;
+    border: 2px solid #44013d;
+}
+ .card__header{
+    font-size: 1.25rem;
+    color: rgb(122, 2, 74);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .card__description{
+    color: white;
+    width: 150px;
+    
+    
+ }
+ .card__rating {
+    display: inline-block;
+    width:116px ;
+    height: 15px;
+    align-items: center;
+    background-image: url(images/icon-star.svg), url(images/icon-star.svg),
+    url(images/icon-star.svg), url(images/icon-star.svg),
+    url(images/icon-star.svg);
+    background-position: 0 0, 25px 0, 50px 0, 75px 0, 100px 0;
+    background-repeat: no-repeat;
+ }
+
